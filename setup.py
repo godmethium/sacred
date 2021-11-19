@@ -38,14 +38,8 @@ setup(
 
     packages=['sacred', 'sacred.observers', 'sacred.config', 'sacred.stflow'],
     scripts=[],
-    install_requires=[
-        'docopt==0.6.2',
-        'jsonpickle==0.9.6',
-        'munch==2.3.2'
-    ],
-    tests_require=[
-        'mock==2.0.0',
-        'pytest==3.8.2'],
+    install_requires=[],
+    tests_require=[],
 
     classifiers=list(filter(None, classifiers.split('\n'))),
     description='Facilitates automated and reproducible experimental research',
